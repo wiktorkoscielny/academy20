@@ -13,21 +13,21 @@ const path = require("path");
 
 function count(users, mobileDevices, iotDevices) {
   let result;
-  const resultOfMapping = users.map(i => {
-    // mobile data
-      const mobileData = mobileDevices.map(item => item.user)
-      const findUserMobileData = mobileData.filter(item => item === i.id)
-      const sumOfMobileDevices = findUserMobileData.length
-    // iot data
-      const iotData = iotDevices.map(item => item.user)
-      const findUserIotData = iotData.filter(item => item === i.id)
-      const sumOfIosDevices = findUserIotData.length
-    // sum
-      const sum = sumOfMobileDevices + sumOfIosDevices
-    // replace
-    const name = i.name.replace(/[0-9]|-|\s/g, '')
-    // result
-    return name + ' => ' + sum
-  })
-  return result = resultOfMapping
+  if (Object.keys(users).length === 0) console.error('There is no users data') // first of all check if there is any user data - to quit function earlier if there is no any and make whole code faster 
+    const resultOfMapping = users.map(i => {
+      // mobile data
+        const mobileData = mobileDevices.map(item => item.user)
+        const findUserMobileData = mobileData.filter(item => item === i.id)
+        const sumOfMobileDevices = findUserMobileData.length
+      // iot data
+        const iotData = iotDevices.map(item => item.user)
+        const findUserIotData = iotData.filter(item => item === i.id)
+        const sumOfIosDevices = findUserIotData.length
+      // sum
+        const sum = sumOfMobileDevices + sumOfIosDevices
+        const name = i.name
+      // result
+        return (name + ' => ' + sum)
+    })
+    return result = console.table(resultOfMapping)
 }
