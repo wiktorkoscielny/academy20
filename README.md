@@ -2,7 +2,7 @@
 # Hi, I have finished the recruitment task and I would love to hear your feedback! :)
 
 I solved that task in two ways: 
-- basic solution according to task guidelines on branch `basicSolution`
+- basic solution according to the task guidelines on branch `basicSolution`
 - improved solution on branch `thirdSolution`
 
 Please kindly check the code of both solutions, and thank you for your time!
@@ -11,6 +11,6 @@ Please kindly check the code of both solutions, and thank you for your time!
 
 ![First solution](https://i.ibb.co/sP6Lhh9/basic-Solution.png)
 
-2. Output of the second <ins>(improved)</ins> solution
+2. Output of the second <ins>improved</ins> solution
 
 ![Third solution](https://i.ibb.co/fHm4f2h/third-Function.png)
