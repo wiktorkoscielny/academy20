@@ -1,9 +1,7 @@
 
 # Hi, I have finished the recruitment task and I would love to hear your feedback! :)
 
-## I solved that task in two ways.
-
-I have solved the task in two ways: 
+I solved that task in two ways: 
 - basic solution according to task guidelines on branch `basicSolution`
 - improved solution on branch `thirdSolution`
 
