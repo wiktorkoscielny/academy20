@@ -12,4 +12,8 @@ Please kindly check the code of both solutions, and thank you for your time!
 
 2. Output of the second (improved) solution
 
-![First solution](https://i.ibb.co/HGYf43n/Improved-solution.png" )
+![First solution](https://i.ibb.co/HGYf43n/Improved-solution.png)
+
+3. Third <ins>fixed</ins> function
+
+![Third solution](https://i.ibb.co/7XXpKsF/third-Function.png)
