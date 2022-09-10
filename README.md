@@ -11,8 +11,8 @@ Please kindly check the code of both solutions, and thank you for your time!
 
 1. Output of the first, simple solution
 
-![First solution](https://i.ibb.co/XjnvJyh/Basic-solution.png)
+![First solution](https://i.ibb.co/sP6Lhh9/basic-Solution.png)
 
 2. Output of the second <ins>(improved)</ins> solution
 
-![Third solution](https://i.ibb.co/sP6Lhh9/basic-Solution.png)
+![Third solution](https://i.ibb.co/fHm4f2h/third-Function.png)
