@@ -1,5 +1,5 @@
 
-# Hi, i have finished that task and I look forward to hear your feedback! :)
+# Hi, I have finished the recruitment task and I would love to hear your feedback! :)
 
 ## I solved that task in two ways.
 
