@@ -8,8 +8,8 @@ Please kindly check the code of both solutions, and thank you for your time!
 
 1. Output of the first, simple solution
 
-![First solution](https://ibb.co/4Kb5Ns6)
+![First solution](https://i.ibb.co/XjnvJyh/Basic-solution.png)
 
 2. Output of the second (improved) solution
 
-![First solution](https://ibb.co/6Db7wLg)
+![First solution](https://i.ibb.co/HGYf43n/Improved-solution.png" )
