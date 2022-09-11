@@ -34,5 +34,5 @@ function count(users, mobileDevices, iotDevices) {
     const sumOfDevices = length
     return i.name + ' => ' + sumOfDevices
   })
-  return result = resultOfMapping
+  return result = console.table(resultOfMapping)
 }
