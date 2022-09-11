@@ -10,7 +10,7 @@
 I solved that task in two ways: 
 - basic solution according to the task guidelines on branch `basicSolution`
 - improved solution on branch `thirdSolution`
-<br />
+
 Please kindly check the code of both solutions, and thank you for your time!
 
 ## Describtion
