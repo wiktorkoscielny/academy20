@@ -4,7 +4,7 @@
 ## Table of contents
 * [General info](#general-info)
 * [Describtion](#describtion)
-* [Result of the solutions](#result-of-the-solutions)
+* [Result of the solution](#result-of-the-solutions)
 
 ## General info
 I solved that task in two ways: 
