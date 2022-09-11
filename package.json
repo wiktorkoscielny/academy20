@@ -6,6 +6,7 @@
   "license": "MIT",
   "scripts": {
     "start": "node src/index.js",
+    "generate": "node src/generate-data.js",
     "test": "jest"
   },
   "dependencies": {
