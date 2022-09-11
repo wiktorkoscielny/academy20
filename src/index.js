@@ -16,18 +16,24 @@ function count(users, mobileDevices, iotDevices) {
   if (Object.keys(users).length === 0) console.error('There is no users data') // first of all check if there is any user data - to quit function earlier if there is no any and make whole code faster 
     const resultOfMapping = users.map(i => {
       // mobile data
-        const mobileData = mobileDevices.map(item => item.user)
-        const findUserMobileData = mobileData.filter(item => item === i.id)
-        const sumOfMobileDevices = findUserMobileData.length
+        const mobileData = mobileDevices.map(item => item.user),
+          findUserMobileData = mobileData.filter(item => item === i.id),
+          sumOfMobileDevices = findUserMobileData.length
       // iot data
-        const iotData = iotDevices.map(item => item.user)
-        const findUserIotData = iotData.filter(item => item === i.id)
-        const sumOfIosDevices = findUserIotData.length
-      // sum
-        const sum = sumOfMobileDevices + sumOfIosDevices
-        const name = i.name
-      // result
-        return (name + ' => ' + sum)
+        const mdFiltered = mobileDevices.filter(obj => obj.user === i.id)
+        let idFiltered =  mdFiltered.map(item => {
+          return iotDevices.filter(obj => obj.mobile === item.id)
+        })
+        let length
+        if (idFiltered.length === undefined || idFiltered.length === 0) {
+          length = 0
+        } else if (idFiltered.length > 0) {
+          [a] = idFiltered, b = JSON.stringify(a), c = JSON.parse(b)
+          d = c.map(i => i.id)
+          length = d.length + 1
+        } else length = 1
+          const sumOfDevices = sumOfMobileDevices + length
+        return i.name + ' => ' + sumOfDevices
     })
-    return result = console.table(resultOfMapping)
+    return result = resultOfMapping
 }
