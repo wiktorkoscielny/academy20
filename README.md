@@ -19,6 +19,6 @@ Firstly i solved that task with a task guidelines on branch basicSolution. Then 
 ## Result of the solutions
 1. Output of the solution
 
-![First solution](https://i.ibb.co/FmKRXmg/NEWBASIC.png)
+![First solution](https://i.ibb.co/J7rdTB4/obraz-2022-09-11-233050441.png)
 
 
