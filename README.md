@@ -19,7 +19,7 @@ Firstly i solved that task on branch main and everything worked fine, but i deci
 ## Result of the solutions
 1. Output of the first, simple solution
 
-![First solution](https://i.ibb.co/sP6Lhh9/basic-Solution.png)
+![First solution](https://i.ibb.co/FmKRXmg/NEWBASIC.png)
 
 2. Output of the second <ins>improved</ins> solution
 
