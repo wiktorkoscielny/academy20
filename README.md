@@ -23,4 +23,4 @@ Firstly i solved that task on branch main and everything worked fine, but i deci
 
 2. Output of the second <ins>improved</ins> solution
 
-![Third solution](https://i.ibb.co/fHm4f2h/third-Function.png)
+![Third solution](https://i.ibb.co/qM7vrTG/nowy.png)
