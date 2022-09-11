@@ -14,7 +14,7 @@ I solved that task in two ways:
 Please kindly check the code of both solutions, and thank you for your time!
 
 ## Describtion
-Firstly i solved that task with a task guidelines on branch basicSolution. Then i decided to try improve that function a bit in case the arguments passed to the function contain different data. Then i have also tested that function to see how it works.
+Firstly i solved that task with a task guidelines on branch basicSolution. Then i decided to try to improve that function a bit in case the arguments passed to the function contain different data. Then i have also tested that function to see how it works.
 
 ## Result of the solutions
 1. Output of the solution
